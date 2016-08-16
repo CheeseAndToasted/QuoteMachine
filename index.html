@@ -16,9 +16,49 @@
 
 <!-- FontAwesome -->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	
+<!-- Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lobster" rel="stylesheet">
 
 <!-- Custom CSS -->
 <style>
+	body {
+		background-color: red; 
+	}
+	.box {
+		margin-top: 150px;  
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 90%; 
+		background-color: white; 
+		border-radius: 40px; 
+	}
+	.quotebox {
+		padding-top: 50px;
+		padding-left: 20px;
+		height: 350px; 
+	}
+	.quote {
+		font-size: 2em;
+		font-family: 'Lobster', cursive;
+	}
+	.authorbox {
+		text-align: right; 
+		padding-right: 50px; 
+	}
+	.author {
+		font-size: ; 
+		font-family: 'Fjalla One', sans-serif;
+	}
+	
+	.inline {
+		display: inline-block; 
+	}
+	.fa { 
+		font-size: 2em; 
+	}
+	
+	@media >768 
 	
 	
 </style>
@@ -27,9 +67,19 @@
 	
 	
 <body>
-	<div class="container">
-		<div class=>
-	</div>
+		<div class="box">
+			<div class="quotebox">
+				<i class="fa fa-quote-left inline"> </i>
+					<h1 class="quote inline"> Test quote should be a longer sentence, in order to represent full effect</h1>
+				<i class="fa fa-quote-right inline"> </i>
+			</div>
+			<div class="authorbox">
+				<h4 class="author inline"> - </h4><h4 class="author inline"> Sample Author Name</h4>
+			</div> 
+			<button type="button" class="btn btn-success">Get new Quote!</button>
+			<i class="fa fa-facebook-square"></i>
+			<i class="fa fa-twitter-square"></i>
+		</div>
 </body>
 	
 	
